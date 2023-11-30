@@ -9,6 +9,7 @@ import { NavItem } from "@/types";
 import { Button } from "./ui/button";
 import { siteConfig } from "@/config/site";
 import Icon from "./icon";
+import { LayoutDashboard, X } from "lucide-react";
 
 interface MainNavProps {
   items: NavItem[];
@@ -43,9 +44,9 @@ export function MainNav({ items }: MainNavProps) {
         onClick={() => setShowMenu(!showMenu)}
       >
         {showMenu ? (
-          <Icon name="x" className="w-4 h-4 mr-2" />
+          <X className="w-4 h-4 mr-2" />
         ) : (
-          <Icon name="layout-dashboard" className="w-4 h-4 mr-2" />
+          <LayoutDashboard className="w-4 h-4 mr-2" />
         )}
         <span className="font-bold">Menu</span>
       </Button>
@@ -74,7 +75,7 @@ function MobileNav({
         <>
           <div className="fixed inset-0 top-12 h-full w-full"></div>
           <div
-            className="fixed inset-0 top-12 px-4"
+            className="fixed inset-0 top-14 px-2"
             onClick={() => setShowMenu((prev) => !prev)}
           >
             <div className="w-full bg-popover border-2 rounded-xl p-5 space-y-4 ">
