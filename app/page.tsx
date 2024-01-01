@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='col-span-6 md:col-span-3 xl:col-span-2 w-full border'>
+        <div className='col-span-6 md:col-span-3 xl:col-span-2'>
           <div className='py-4'>
             <h3 className='font-semibold whitespace-nowrap'>Recommened Stocks</h3>
             <StockTable />
