@@ -6,13 +6,13 @@ export function Footer() {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="vercel.svg" className="flex items-center mb-4 sm:mb-0">
-            <Image
+            {/* <Image
               src="vercel.svg"
               width={"60"}
               height={"60"}
               className="h-8 mr-3 dark:bg-popover-foreground"
               alt="Flowbite Logo"
-            />
+            /> */}
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               PlaySpecNews
             </span>

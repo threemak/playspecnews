@@ -1,96 +1,50 @@
-export const cardItem = [
-  {
-    id: 1,
-    text: "one",
-  },
-  {
-    id: 2,
-    text: "two",
-  },
-  {
-    id: 3,
-    text: "three",
-  },
-  {
-    id: 4,
-    text: "one",
-  },
-  {
-    id: 5,
-    text: "two",
-  },
-  {
-    id: 6,
-    text: "three",
-  },
-  {
-    id: 7,
-    text: "two",
-  },
-  {
-    id: 8,
-    text: "three",
-  },
-];
 export const news = [
   {
     title: "Team India Wins Thrilling Test Match Against England",
+    date: "January 1, 2023",
+    image: "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "Cricket World Cup: Australia Dominates in Group Stage",
+    date: "January 2, 2023",
+    image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "New Rising Star Shines in T20 Cricket League",
+    date: "January 3, 2023",
+    image: "https://images.unsplash.com/photo-1540984156425-aa05ae3d1501?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "South Africa Announces Squad for Test Series",
+    date: "January 4, 2023",
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "Indian Premier League Auction: Big Buys and Surprises",
+    date: "January 5, 2023",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "England's Top Bowler Suffers Injury Blow",
+    date: "January 6, 2023",
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "Cricket Legends Share Tips for Young Cricketers",
+    date: "January 7, 2023",
+    image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "Pakistan Clinches ODI Series Victory",
+    date: "January 8, 2023",
+    image: "https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
   {
     title: "Women's Cricket: India vs. Australia Series Ends in Draw",
+    date: "January 9, 2023",
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
   },
-  {
-    title: "Bangladesh to Host T20 International Tournament",
-  },
-  {
-    title: "West Indies All-Rounder Named Player of the Month",
-  },
-  {
-    title: "New Cricket Stadium Opens in Sri Lanka",
-  },
-  {
-    title: "Young Talent Breaks Batting Records in First-Class Cricket",
-  },
-  {
-    title: "Cricket Fans Excited for India-Pakistan Clash",
-  },
-  {
-    title: "Australia's Captain Hails Team's Outstanding Performance",
-  },
-  {
-    title: "England's Spin Sensation Bags Five Wickets in an Over",
-  },
-  {
-    title: "Cricket Board Announces New Rules for IPL",
-  },
-  {
-    title: "South Africa's Star Batsman Achieves Milestone",
-  },
-  {
-    title: "New Zealand's Young Bowler Rises in Rankings",
-  },
-];
+]
 
 export const stock = [
   {
@@ -168,7 +122,7 @@ export const stock = [
     high: "75.20",
     down: "0.6%",
   },
-];
+]
 
 export const LiveMatch = {
   typeMatches: [
@@ -297,15 +251,13 @@ export const LiveMatch = {
                 matchInfo: {
                   matchId: 80948,
                   seriesId: 7107,
-                  seriesName:
-                    "CSA Provincial One-Day Challenge Division Two 2023",
+                  seriesName: "CSA Provincial One-Day Challenge Division Two 2023",
                   matchDesc: "1st Match",
                   matchFormat: "ODI",
                   startDate: "1694851200000",
                   endDate: "1694880000000",
                   state: "In Progress",
-                  status:
-                    "South Western Districts need 255 runs to win the match by herself",
+                  status: "South Western Districts need 255 runs to win the match by herself",
                   team1: {
                     teamId: 281,
                     teamName: "Knights",
@@ -355,8 +307,7 @@ export const LiveMatch = {
                 matchInfo: {
                   matchId: 80955,
                   seriesId: 7107,
-                  seriesName:
-                    "CSA Provincial One-Day Challenge Division Two 2023",
+                  seriesName: "CSA Provincial One-Day Challenge Division Two 2023",
                   matchDesc: "2nd Match",
                   matchFormat: "ODI",
                   startDate: "1694851200000",
@@ -412,8 +363,7 @@ export const LiveMatch = {
                 matchInfo: {
                   matchId: 80957,
                   seriesId: 7107,
-                  seriesName:
-                    "CSA Provincial One-Day Challenge Division Two 2023",
+                  seriesName: "CSA Provincial One-Day Challenge Division Two 2023",
                   matchDesc: "3rd Match",
                   matchFormat: "ODI",
                   startDate: "1694851200000",
@@ -477,8 +427,7 @@ export const LiveMatch = {
                 matchInfo: {
                   matchId: 80805,
                   seriesId: 7105,
-                  seriesName:
-                    "CSA Provincial One-Day Challenge Division One 2023",
+                  seriesName: "CSA Provincial One-Day Challenge Division One 2023",
                   matchDesc: "1st Match",
                   matchFormat: "ODI",
                   startDate: "1694862000000",
@@ -525,8 +474,7 @@ export const LiveMatch = {
                 matchInfo: {
                   matchId: 80812,
                   seriesId: 7105,
-                  seriesName:
-                    "CSA Provincial One-Day Challenge Division One 2023",
+                  seriesName: "CSA Provincial One-Day Challenge Division One 2023",
                   matchDesc: "2nd Match",
                   matchFormat: "ODI",
                   startDate: "1694862000000",
@@ -584,7 +532,7 @@ export const LiveMatch = {
     webURL: "www.cricbuzz.com/live-cricket-scores/",
   },
   responseLastUpdated: "1694870959",
-};
+}
 
 export const QuoteResponseJSON = {
   quoteDate: {
@@ -963,4 +911,4 @@ export const QuoteResponseJSON = {
       error: null,
     },
   },
-};
+}
